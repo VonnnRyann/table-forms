@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+    <h1>My budget App</h1>
+
+    <fieldset>
+        <legend>Transaction</legend>
+    <form name="">
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" min="5" required>
+        <select name="currency">
+            <option value="USD">USD</option>
+            <option value="EURO">EURO</option>
+            <option value="PESOS" selected>PESOS</option>
+            <option value="K.WON">K.WON</option>
+            <option value="Turkish lira">Turkish lira</option>
+            <option value="other">Others</option>
+        </select>
+        <br>
+    
+        <label for="">Date:</label>
+        <input type="date">
+
+<h3>Type</h3>
+        <input type="radio" name="type" id="Income" value="in">
+        <label for="Income">Income</label>
+        <input type="radio" name="type" id="Outcome" value="out">
+        <label for="Income">Outcome</label>
+        <br>
+        <h3>For</h3>
+        <input type="checkbox" name="for" id="its me" value="Its me">
+        <label for="Its me">Its me</label>
+        <br>
+        <input type="checkbox" name="for" id="not for me" value="Its me">
+        <label for="not for me">Not for me</label>
+        <br>
+        <input type="checkbox" name="for" id="Family" value="Its me">
+        <label for="Family">Family</label>
+        <br>
+        <h3>Notes</h3>
+        <textarea name="notes" id="notes" cols="50" rows="10" placeholder="type something..."></textarea>
+        <br>
+        <input type="submit" value="Save">
+        
+    </fieldset>
+
+
+    </form>
+</body>
+</html>
