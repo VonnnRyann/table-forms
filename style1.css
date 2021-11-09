@@ -1,8 +1,9 @@
 body {
-   background-color: transparent;
+    width: 80%;
+    margin: auto;
 }
 h1 {
-    color: rgb(14, 70, 70);
+    color: #7f4f24;
     text-align: center;
 }
 input {
@@ -17,7 +18,7 @@ label {
 }
 fieldset {
     border-radius: 20px;
-    background-color: darksalmon;
+    background-color: #c2c5aa;
 }
 legend {
     font-weight: bold;
@@ -25,3 +26,26 @@ legend {
 textarea {
     border-radius: 20px;
 }
+
+table, th, td {
+    border:1px solid white;
+    border-collapse: collapse;
+}
+table {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+th {
+    background-color: #656d4a;
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
+tr:nth-of-type(even) {
+    background-color: #a4ac86;
+}
+td {
+    line-height: 1.4em;
+    text-align: center;
+}
+
