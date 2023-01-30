@@ -2,12 +2,12 @@
 body {
     width: 80%;
     margin: auto;
-    background-color: #d8f3dc;
+    background: -moz-linear-gradient(to right,rgba(0, 0, 255, 0.685),rgba(255, 255, 0, 0.781));
 }
 h1 {
     color: #7f4f24;
     text-align: center;
-    text-shadow: 6px 8px 8px #a4ac86 ;
+    text-shadow: 6px 8px 8px #666b53e0 ;
     font-family: 'Mochiy Pop P One', sans-serif;
 }
 input {
@@ -23,10 +23,10 @@ label {
 fieldset {
     border-radius: 20px;
     color: whitesmoke;
-    width: 90%;
+    width: 95%;
     margin: auto;
+    margin-bottom: 5px;
     border-collapse: collapse;
-    box-shadow: 0px 0px 0px 9px grey;
     
 }
 legend {
@@ -35,7 +35,7 @@ legend {
 }
 
 table, th, td {
-    border:1px solid red;
+    border:1px solid rgba(241, 235, 235, 0.459);
     border-collapse: collapse;
 }
 table {
@@ -58,9 +58,14 @@ td {
 }
 form {
     background-image: url(./table4.jpg);
-    background-size:cover;
+    background-size: 50%;
     border-radius: 20px;
     overflow: hidden;
+    object-fit: contain;
+    background-repeat: inherit;
+}
+textarea, input, select {
+    background: rgba(240, 237, 237,0.80);
 }
 span {
     position: relative;
